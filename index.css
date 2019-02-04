@@ -1,0 +1,33 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color:rgb(235, 235, 235);
+    
+}
+
+#banner{
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    color:orange;
+    bottom:0px;
+    text-align: center;
+}
+
+@media screen and (min-width: 700px){
+    
+        position: fixed;
+        height: 80px;
+        width: 100%;
+        background-color: white;
+        color:orange;
+        text-align: center;
+}
+#map{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    width: 90%;
+    height: 450px;
+    float: left;
+}
